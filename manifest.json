@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bionic",
+    "version": "1.0",
+
+    "description": "converts the text in the paragraphs into bionic",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["bionic.js"]
+        }
+    ]
+}

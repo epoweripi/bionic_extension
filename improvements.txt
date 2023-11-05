@@ -1,0 +1,2 @@
+make the bionic only for all the most internal p tags
+make the bionic toggle-able through the browser toolbar
